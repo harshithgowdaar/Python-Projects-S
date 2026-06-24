@@ -1,14 +1,17 @@
 def cal():
     a=float(input("Enter first number:"))
     b=float(input("Enter second number:"))
+    print("-"*20)
 
     print("Simple Calculator")
+    print("-"*20)
     print("select arithmatic operations:")
     print("1.Addition")
     print("2.Subtraction")
     print("3.Multiplication")
     print("4.Division") 
-    choice=int(input("enter choice (1/2/3/4):"))
+    choice=int(input("Enter choice (1/2/3/4):"))
+    print("-"*20)
         
     if choice==1:
         print(f"sum of {a} and {b} is: {a+b}")
@@ -19,5 +22,6 @@ def cal():
     elif choice==4:
          print(f"division of {a} and {b} is: {a/b}")
     else:
-        print("invalid choice :(")                   
+        print("invalid choice :(")
+    print("-"*20)                   
 cal()
