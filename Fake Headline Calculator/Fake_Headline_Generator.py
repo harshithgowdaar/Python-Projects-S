@@ -39,7 +39,7 @@ while True:
     place_thing= random.choice(places_things)
 
     headline=f"BREAKING NEWS!!-- {subject} {action} {place_thing}"
-    print("\n" + headline)
+    print(headline)
     print()
 
     user= input("Do you want to generate another headline like this?? (yes/no): ")
